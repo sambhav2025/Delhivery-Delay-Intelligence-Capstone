@@ -69,3 +69,4 @@ def build_features(clean, hubs):
     df["log_declared_value"] = np.log(df["declared_value_inr"])
     
     return df
+    
